@@ -1,42 +1,58 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiAppBar-root {
+  backdrop-filter: blur(10px);
+  background: rgba(26, 26, 26, 0.9) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.MuiContainer-root {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
-.card {
-  padding: 2em;
+.MuiPaper-root {
+  transition: all 0.3s ease-in-out !important;
 }
 
-.read-the-docs {
-  color: #888;
+.MuiPaper-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography improvements */
+.MuiTypography-root {
+  letter-spacing: -0.5px;
+}
+
+/* Button styles */
+.MuiButton-root {
+  transition: all 0.3s ease-in-out;
+}
+
+.MuiButton-root:hover {
+  transform: translateY(-2px);
 }
