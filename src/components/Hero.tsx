@@ -43,9 +43,9 @@ const Hero = () => {
           {/* Name */}
           <div className="animate-slide-up">
             <h1 className="text-6xl md:text-8xl font-bold mb-6">
-              <span className="text-gradient">Ashish</span>
+              <span className="text-gradient">Ashish Wilson</span>
               <br />
-              <span className="text-foreground">Wilson</span>
+              {/* <span className="text-foreground">Wilson</span> */}
             </h1>
           </div>
 
