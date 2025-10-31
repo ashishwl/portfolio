@@ -6,6 +6,5 @@ import "./index.css";
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
-    {/* Resume download link moved to components */}
   </React.StrictMode>
 );
