@@ -6,51 +6,27 @@ import { Github, ExternalLink, Calendar } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Fitness Tracker",
-      description: "A comprehensive fitness and calorie tracking application built with Java and JSwing. Features user-friendly navigation, data persistence using JSON serialization, and follows Test-Driven Development principles.",
-      technologies: ["Java", "JSwing", "JSON", "TDD"],
-      period: "September 2024 – December 2024",
+      title: "VCARE",
+      description: "Mobile health assistant app that predicts diseases from symptoms and helps schedule doctor visits. Integrates TensorFlow for on-device machine learning-based diagnosis and Firebase for real-time data management.",
+      technologies: ["Android", "Java", "Firebase", "Python", "TensorFlow"],
+      period: "2022",
       type: "Academic Project",
       highlights: [
-        "Minimal navigation design for enhanced user experience",
-        "Open-source accessibility features",
-        "Robust functionality with comprehensive testing"
+        "Predictive disease diagnosis using TensorFlow models",
+        "Doctor visit scheduling and patient workflow",
+        "Real-time data sync and user management with Firebase"
       ]
     },
     {
-      title: "Data Science & AI Training",
-      description: "Analyzed Minecraft player engagement patterns using statistical modeling to optimize server resource planning. Applied K-Nearest Neighbors and Regression techniques for predictive analysis.",
-      technologies: ["R", "Statistical Modeling", "KNN", "Regression"],
-      period: "September 2024 – December 2024",
+      title: "SMARTPARK",
+      description: "AI-driven smart parking system combining Android app with image processing for accurate slot detection. Uses OpenCV and C++ for computer vision and Firebase + Java for mobile integration.",
+      technologies: ["Android", "Java", "Firebase", "C++", "OpenCV"],
+      period: "2020",
       type: "Academic Project",
       highlights: [
-        "Player engagement pattern analysis",
-        "Server resource optimization strategies",
-        "Comprehensive exploratory data analysis (EDA)"
-      ]
-    },
-    {
-      title: "Canvas Assistant AI Chatbot",
-      description: "Developed an AI-powered chatbot for students using Google Dialogflow, integrated with university Canvas system for real-time data access. Built during GDSC hackathon using modern AI development tools.",
-      technologies: ["Node.js", "Google Dialogflow", "Canvas API", "AI"],
-      period: "March 2025",
-      type: "Hackathon Project",
-      highlights: [
-        "AI-powered student assistance",
-        "Real-time Canvas integration",
-        "Rapid prototyping with AI tools"
-      ]
-    },
-    {
-      title: "Third-Person Shooter Game",
-      description: "Designed and implemented a multi-level shooter game with AI-driven enemy spawns and dynamic physics using Unreal Engine and C++. Features custom animations and immersive gameplay mechanics.",
-      technologies: ["C++", "Unreal Engine", "Blueprints", "Xcode"],
-      period: "February 2024 – April 2024",
-      type: "Personal Project",
-      highlights: [
-        "AI-driven enemy behavior system",
-        "Dynamic physics implementation",
-        "Custom animations and visual effects"
+        "AI-based slot detection using OpenCV",
+        "Reduced parking search time by ~40%",
+        "Android app integration for real-time parking status"
       ]
     }
   ];

@@ -59,9 +59,9 @@ const Hero = () => {
           {/* Description */}
           <div className="animate-slide-up" style={{ animationDelay: "0.4s" }}>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-              Passionate about creating innovative solutions through code.
-              Currently pursuing Computer Engineering at UBC while building
-              projects that make a difference.
+              Full-stack developer dedicated to crafting elegant and efficient solutions.
+              Leveraging technology to build impactful applications while
+              continuously exploring new development frontiers.
             </p>
           </div>
 

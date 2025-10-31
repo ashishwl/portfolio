@@ -4,25 +4,27 @@ import { GraduationCap, Code, Brain, Users } from "lucide-react";
 
 const About = () => {
   const skills = {
-    "Programming": ["Java", "Python", "C", "C#", "R", "SQL"],
-    "Tools & Technologies": ["GitHub", "GitLab", "Unreal Engine", "Visual Studio Code", "RStudio"],
-    "AI & Data": ["Predictive Modeling", "AI Training", "Data Analysis", "JSON"],
-    "Soft Skills": ["Customer Service", "Human Factors", "Multilingual", "Team Leadership"]
+    "Languages & Core": ["Java", "Python", "TypeScript", "HTML", "CSS"],
+    "Backend": ["Spring Boot", "Node.js", "REST APIs", "Microservices"],
+    "Frontend": ["React", "Angular"],
+    "Cloud & DevOps": ["AWS", "Docker", "Terraform", "Git", "GitLab"],
+    "Databases": ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "Redis"],
+    "Other": ["Data Structures & Algorithms", "Design Patterns", "Agile"]
   };
 
   const education = [
     {
-      degree: "MCA",
-      school: "University of British Columbia",
-      location: "Vancouver, B.C.",
-      period: "Sept 2025 – Dec 2027",
+      degree: "Masters in Computer Applications",
+      school: "APJ Abdul Kalam Technological University",
+      location: "Kerala, India",
+      period: "Nov 2020 - Aug 2022",
       icon: <GraduationCap className="w-6 h-6" />
     },
     {
-      degree: "BCA",
-      school: "Douglas College",
-      location: "New Westminster, B.C.",
-      period: "May 2022 – Apr 2024",
+      degree: "Bachelors in Computer Applications",
+      school: "University of Mysore",
+      location: "Mysore, India", 
+      period: "July 2017 - Sept 2020",
       icon: <GraduationCap className="w-6 h-6" />
     }
   ];
@@ -35,10 +37,10 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             About <span className="text-gradient">Me</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A passionate Computer Engineering student with a drive for innovation 
-            and a commitment to creating meaningful technological solutions.
-          </p>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            A dedicated Software Engineer with a passion for building scalable solutions 
+            and expertise in full-stack development, focused on delivering high-performance applications.
+            </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -49,22 +51,23 @@ const About = () => {
                 <Code className="w-8 h-8 text-primary mr-3" />
                 <h3 className="text-2xl font-semibold">My Journey</h3>
               </div>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm currently pursuing my Bachelor's in Computer Engineering at UBC, 
-                building on a strong foundation in mathematics from Douglas College. 
-                My passion lies in bridging the gap between theoretical knowledge and 
-                practical applications.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                From developing fitness trackers to creating AI-powered chatbots, 
-                I enjoy tackling complex problems and turning ideas into functional solutions. 
-                My experience spans across various domains including game development, 
-                data science, and web technologies.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, I'm tutoring students in mathematics, helping them 
-                build confidence and discover the beauty of problem-solving.
-              </p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                I'm a Software Engineer specializing in Java, Spring Boot, and Microservices architecture. 
+                With hands-on experience in both backend and frontend development, I've contributed to 
+                building scalable and high-performance applications.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                My expertise includes developing AWS Lambda-based workflows, optimizing SQL queries, 
+                and creating responsive React components. I've successfully improved system performance, 
+                reducing query execution times by 60% and enhancing frontend user experience with a 20% 
+                reduction in bounce rates.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                I'm passionate about DevOps practices, working with CI/CD pipelines, and implementing 
+                automated testing. My experience in SAFe Agile environments has equipped me with strong 
+                project delivery and team collaboration skills. I consistently strive to maintain system 
+                reliability, ensuring less than 2% downtime in high-traffic environments.
+                </p>
             </div>
 
             {/* Education */}
@@ -125,7 +128,7 @@ const About = () => {
                 <div className="text-muted-foreground">Projects Completed</div>
               </div>
               <div className="gradient-card p-6 rounded-lg text-center">
-                <div className="text-3xl font-bold text-gradient mb-2">3+</div>
+                <div className="text-3xl font-bold text-gradient mb-2">2+</div>
                 <div className="text-muted-foreground">Years Experience</div>
               </div>
             </div>

@@ -4,50 +4,39 @@ import { Briefcase, Calendar, MapPin, TrendingUp } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
-    {
-      title: "Math Tutor",
-      company: "Self-Employed",
-      location: "Surrey, B.C.",
-      period: "Jan 2025 – August 2025",
-      type: "Education",
-      description: "Providing personalized mathematics tutoring to high school students, focusing on building confidence and understanding in complex mathematical concepts.",
-      achievements: [
-        "Tutored students in Algebra, Geometry, and Pre-Calculus",
-        "Developed adaptive teaching methods for different learning styles",
-        "Improved student confidence through encouragement and celebration of progress",
-        "Maintained flexible pacing to accommodate individual student needs"
-      ]
-    },
-    {
-      title: "Customer Service Associate",
-      company: "Save-On-Foods",
-      location: "New Westminster, B.C.",
-      period: "Mar 2022 – Dec 2023",
-      type: "Retail",
-      description: "Enhanced store operations through inventory management, customer service excellence, and process optimization in a fast-paced retail environment.",
-      achievements: [
-        "Reduced inventory discrepancies through systematic reporting",
-        "Improved stock tracking accuracy and inventory management",
-        "Decreased restocking times by 20-25% through strategic layout optimization",
-        "Utilized multilingual skills to serve diverse customer base during peak hours"
-      ]
-    },
-    {
-      title: "Retail Supervisor",
-      company: "Petro Canada",
-      location: "Revelstoke, B.C.",
-      period: "Mar 2020 – April 2022",
-      type: "Leadership",
-      description: "Led retail operations team while implementing data-driven solutions to improve efficiency, customer satisfaction, and operational processes.",
-      achievements: [
-        "Managed team performance during peak-hour demand periods",
-        "Improved customer satisfaction through efficient service delivery",
-        "Conducted comprehensive inventory audits and resolved stock issues",
-        "Automated sales reporting, reducing manual work by 25-30%",
-        "Implemented data-driven forecasting for optimal inventory management"
-      ]
-    }
-  ];
+  {
+    title: "Software Engineer",
+    company: "Cognizant",
+    location: "Bangalore, India",
+    period: "June 2023 – Present",
+    type: "Engineering",
+    description: "Working on microservices-based architecture with Java, Spring Boot, and React, focusing on scalability, performance optimization, and cloud infrastructure.",
+    achievements: [
+      "Engineered AWS Lambda-based event-driven workflows, reducing manual interventions by 70%",
+      "Refactored SQL queries achieving 60% reduction in execution time",
+      "Built dynamic React components improving frontend responsiveness by 20%",
+      "Implemented CI/CD pipelines using Terraform for AWS Lambda provisioning",
+      "Maintained high-traffic systems with <2% downtime through critical hotfixes",
+      "Developed RESTful APIs with Spring Boot and JUnit testing",
+      "Created React test cases using Jest and React Testing Library"
+    ]
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Cognizant",
+    location: "Bangalore, India",
+    period: "Feb 2023 – May 2023",
+    type: "Engineering",
+    description: "Contributed to microservices development using Java, Spring Boot, and frontend technologies while gaining hands-on experience with AWS cloud services.",
+    achievements: [
+      "Developed microservices using Java and Spring Boot",
+      "Optimized SQL queries for improved data retrieval",
+      "Built UI components using Angular and TypeScript",
+      "Worked with AWS services including ECS and S3"
+    ]
+  }
+];
+
 
   const getTypeColor = (type: string) => {
     switch (type) {
