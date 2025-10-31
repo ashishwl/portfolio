@@ -30,7 +30,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-gradient">
-            HS
+            AW
           </div>
 
           {/* Desktop Navigation */}
