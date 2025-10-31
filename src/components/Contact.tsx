@@ -10,20 +10,20 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
       value: "ashishwlearn@gmail.com",
-      href: "mailto:ashishwlearn@gmail.com"
+      href: "mailto:ashishwlearn@gmail.com",
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
       value: "+91 9605177942",
-      href: "tel:+919605177942"
+      href: "tel:+919605177942",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
       value: "Kerala, India",
-      href: null
-    }
+      href: null,
+    },
   ];
 
   const socialLinks = [
@@ -31,14 +31,14 @@ const Contact = () => {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
       href: "https://github.com",
-      color: "hover:text-primary"
+      color: "hover:text-primary",
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
       href: "https://linkedin.com",
-      color: "hover:text-primary"
-    }
+      color: "hover:text-primary",
+    },
   ];
 
   return (
@@ -50,8 +50,8 @@ const Contact = () => {
             Get In <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, collaborations, 
-            or just having a conversation about technology and innovation.
+            I'm always open to discussing new opportunities, collaborations, or
+            just having a conversation about technology and innovation.
           </p>
         </div>
 
@@ -61,9 +61,10 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Whether you're looking for a dedicated Computer Engineering student 
-                for an internship, have a project idea you'd like to discuss, or 
-                just want to connect with a fellow developer, I'd love to hear from you.
+                Whether you're looking for a dedicated Computer Engineering
+                student for an internship, have a project idea you'd like to
+                discuss, or just want to connect with a fellow developer, I'd
+                love to hear from you.
               </p>
             </div>
 
@@ -76,9 +77,11 @@ const Contact = () => {
                       {info.icon}
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">{info.label}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {info.label}
+                      </p>
                       {info.href ? (
-                        <a 
+                        <a
                           href={info.href}
                           className="text-lg font-semibold text-primary hover:text-primary-glow transition-colors"
                         >
@@ -121,38 +124,44 @@ const Contact = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium mb-2">Name</label>
-                  <Input 
+                  <Input
                     placeholder="Your name"
                     className="bg-background/50 border-border/50 focus:border-primary"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2">Email</label>
-                  <Input 
+                  <label className="block text-sm font-medium mb-2">
+                    Email
+                  </label>
+                  <Input
                     type="email"
                     placeholder="your.email@example.com"
                     className="bg-background/50 border-border/50 focus:border-primary"
                   />
                 </div>
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium mb-2">Subject</label>
-                <Input 
+                <label className="block text-sm font-medium mb-2">
+                  Subject
+                </label>
+                <Input
                   placeholder="What's this about?"
                   className="bg-background/50 border-border/50 focus:border-primary"
                 />
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium mb-2">Message</label>
-                <Textarea 
+                <label className="block text-sm font-medium mb-2">
+                  Message
+                </label>
+                <Textarea
                   placeholder="Tell me about your project or opportunity..."
                   rows={6}
                   className="bg-background/50 border-border/50 focus:border-primary resize-none"
                 />
               </div>
-              
+
               <Button variant="hero" size="lg" className="w-full group">
                 <Send className="w-5 h-5 mr-2 group-hover:translate-x-1 transition-transform" />
                 Send Message
@@ -166,12 +175,12 @@ const Contact = () => {
           <div className="gradient-card p-8 rounded-lg max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Ready to Work Together?</h3>
             <p className="text-muted-foreground mb-6">
-              I'm currently seeking internship opportunities and exciting projects. 
-              Let's build something amazing together!
+              I'm currently seeking internship opportunities and exciting
+              projects. Let's build something amazing together!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/Harpreet_Singh_Resume.pdf"
+                href="/Ashish_Wilson_Resume.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"

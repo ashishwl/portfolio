@@ -78,7 +78,7 @@ const Hero = () => {
               View My Work
             </Button>
             <a
-              href="/Harpreet_Singh_Resume.pdf"
+              href="/Ashish_Wilson_Resume.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"

@@ -15,11 +15,11 @@ const About = () => {
       degree: "MCA",
       school: "University of British Columbia",
       location: "Vancouver, B.C.",
-      period: "Sept 2024 – Dec 2027",
+      period: "Sept 2025 – Dec 2027",
       icon: <GraduationCap className="w-6 h-6" />
     },
     {
-      degree: "Associate of Science, Mathematics",
+      degree: "BCA",
       school: "Douglas College",
       location: "New Westminster, B.C.",
       period: "May 2022 – Apr 2024",
