@@ -4,15 +4,15 @@ import { GraduationCap, Code, Brain, Users } from "lucide-react";
 
 const About = () => {
   const skills = {
-    "Programming": ["Java", "C++", "C", "C#", "R", "SQL"],
-    "Tools & Technologies": ["GitHub", "Xcode", "Unreal Engine", "Visual Studio Code", "RStudio"],
+    "Programming": ["Java", "Python", "C", "C#", "R", "SQL"],
+    "Tools & Technologies": ["GitHub", "GitLab", "Unreal Engine", "Visual Studio Code", "RStudio"],
     "AI & Data": ["Predictive Modeling", "AI Training", "Data Analysis", "JSON"],
     "Soft Skills": ["Customer Service", "Human Factors", "Multilingual", "Team Leadership"]
   };
 
   const education = [
     {
-      degree: "BASc, Computer Engineering",
+      degree: "MCA",
       school: "University of British Columbia",
       location: "Vancouver, B.C.",
       period: "Sept 2024 – Dec 2027",

@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "hs3732065@gmail.com",
-      href: "mailto:hs3732065@gmail.com"
+      value: "ashishwlearn@gmail.com",
+      href: "mailto:ashishwlearn@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+1 778 998 1236",
-      href: "tel:+17789981236"
+      value: "+91 9605177942",
+      href: "tel:+919605177942"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "Vancouver, BC, Canada",
+      value: "Kerala, India",
       href: null
     }
   ];

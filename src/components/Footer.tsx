@@ -10,10 +10,10 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="text-2xl font-bold text-gradient mb-2">
-              Harpreet Singh
+              Ashish Wilson
             </div>
             <p className="text-muted-foreground">
-              Computer Engineering Student & Developer
+              Software Developer
             </p>
           </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:hs3732065@gmail.com"
+              href="mailto:ashishwlearn@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-300"
             >
               <Mail size={24} />
@@ -46,7 +46,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} Harpreet Singh. All rights reserved.
+              © {currentYear} Ashish Wilson. All rights reserved.
             </p>
             <p className="text-muted-foreground text-xs mt-1 flex items-center justify-center md:justify-end">
               Made with <Heart className="w-3 h-3 mx-1 text-accent" /> and lots of coffee

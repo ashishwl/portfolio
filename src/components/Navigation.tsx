@@ -115,7 +115,7 @@ const Navigation = () => {
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="mailto:hs3732065@gmail.com"
+                  href="mailto:ashishwlearn@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Mail size={20} />
